@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Cheeseburger",
+    "image": "https://cdn.pixabay.com/photo/2019/04/22/08/37/burger-4145977_1280.jpg",
+    "price": 8.99,
+    "category": "Fast Food",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Pizza Slice",
+    "image": "https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_1280.jpg",
+    "price": 10.49,
+    "category": "Italian",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Waffles Breakfast",
+    "image": "https://cdn.pixabay.com/photo/2022/07/26/22/48/waffle-7346835_1280.jpg",
+    "price": 6.5,
+    "category": "Breakfast",
+    "rating": 4.4
+  },
+  {
+    "id": 4,
+    "name": "Cookies Dessert",
+    "image": "https://cdn.pixabay.com/photo/2023/06/22/22/29/cookies-808386_1280.jpg",
+    "price": 4.99,
+    "category": "Dessert",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Pumpkin Soup",
+    "image": "https://cdn.pixabay.com/photo/2019/09/27/09/59/pumpkin-soup-4509015_1280.jpg",
+    "price": 7.25,
+    "category": "Soup",
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "name": "Fresh Pasta",
+    "image": "https://cdn.pixabay.com/photo/2016/11/22/19/16/pasta-1854245_1280.jpg",
+    "price": 12.99,
+    "category": "Italian",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "name": "Fruit Salad",
+    "image": "https://cdn.pixabay.com/photo/2017/01/30/13/45/fruit-salad-2020867_1280.jpg",
+    "price": 5.5,
+    "category": "Healthy",
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "name": "Tacos",
+    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/21/taco-712665_1280.jpg",
+    "price": 9.75,
+    "category": "Mexican",
+    "rating": 4.5
+  }
+]
