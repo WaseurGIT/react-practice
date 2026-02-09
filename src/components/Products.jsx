@@ -38,7 +38,7 @@ const Products = () => {
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-1 rounded-full transition font-medium cursor-pointer
+              className={`px-4 py-1 rounded-full transition font-medium cursor-pointer momo-signature-regular
         ${
           selectedCategory === category
             ? "bg-orange-500 text-white"
