@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Cookies Dessert",
-    "image": "https://cdn.pixabay.com/photo/2023/06/22/22/29/cookies-808386_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
     "price": 4.99,
     "category": "Dessert",
     "rating": 4.6
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Pumpkin Soup",
-    "image": "https://cdn.pixabay.com/photo/2019/09/27/09/59/pumpkin-soup-4509015_1280.jpg",
+    "image": "https://images.pexels.com/photos/7103246/pexels-photo-7103246.jpeg?auto=compress&cs=tinysrgb&w=800",
     "price": 7.25,
     "category": "Soup",
     "rating": 4.3
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Fresh Pasta",
-    "image": "https://cdn.pixabay.com/photo/2016/11/22/19/16/pasta-1854245_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80",
     "price": 12.99,
     "category": "Italian",
     "rating": 4.8
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Fruit Salad",
-    "image": "https://cdn.pixabay.com/photo/2017/01/30/13/45/fruit-salad-2020867_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1564093497595-593b96d80180?auto=format&fit=crop&w=800&q=80",
     "price": 5.5,
     "category": "Healthy",
     "rating": 4.2
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Tacos",
-    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/21/taco-712665_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80",
     "price": 9.75,
     "category": "Mexican",
     "rating": 4.5
