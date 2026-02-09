@@ -4,9 +4,11 @@ import Products from "./Products";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-      <Products/>
+    <div className="">
+      <Navbar className="" />
+      <div className="">
+        <Products/>
+      </div>
     </div>
   );
 };
