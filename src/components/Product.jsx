@@ -1,7 +1,7 @@
 import React from "react";
 import { FiEye, FiEdit2, FiTrash2 } from "react-icons/fi";
 
-const Product = ({ food }) => {
+const Product = ({ food, handleDeleteFood }) => {
   const handleView = () => {
     alert(`Viewing: ${food.name}`);
   };
@@ -10,8 +10,8 @@ const Product = ({ food }) => {
     alert(`Updating: ${food.name}`);
   };
 
-  const handleDelete = () => {
-    alert(`Deleting: ${food.name}`);
+  const handleDelete = (id) => {
+    handleDeleteFood(id);
   };
 
   return (
@@ -62,7 +62,7 @@ const Product = ({ food }) => {
             <span className="text-xs font-medium">Edit</span>
           </button>
           <button
-            onClick={handleDelete}
+            onClick={() => handleDelete(food.id)}
             className="flex items-center justify-center gap-2 px-4 py-2 text-red-600 hover:bg-red-100 rounded-lg transition-colors duration-200"
             title="Delete"
           >
