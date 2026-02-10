@@ -1,9 +1,9 @@
 import React from "react";
-import { FiEye, FiEdit2, FiTrash2 } from "react-icons/fi";
+import { FiShoppingCart, FiEdit2, FiTrash2 } from "react-icons/fi";
 
-const Product = ({ food, handleDeleteFood }) => {
-  const handleView = () => {
-    alert(`Viewing: ${food.name}`);
+const Product = ({ food, handleAddToCart, handleDeleteFood }) => {
+  const handleAddToCartClick = () => {
+    handleAddToCart(food);
   };
 
   const handleUpdate = () => {
@@ -46,12 +46,12 @@ const Product = ({ food, handleDeleteFood }) => {
 
         <div className="flex justify-around items-center border-t pt-3">
           <button
-            onClick={handleView}
-            className="flex items-center justify-center gap-2 px-4 py-2 text-blue-600 hover:bg-blue-100 rounded-lg transition-colors duration-200"
-            title="View"
+            onClick={handleAddToCartClick}
+            className="flex items-center justify-center gap-2 px-4 py-2 text-orange-600 hover:bg-orange-100 rounded-lg transition-colors duration-200"
+            title="Add to Cart"
           >
-            <FiEye size={20} />
-            <span className="text-xs font-medium">View</span>
+            <FiShoppingCart size={20} />
+            <span className="text-xs font-medium">Cart</span>
           </button>
           <button
             onClick={handleUpdate}

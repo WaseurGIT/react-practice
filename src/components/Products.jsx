@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Product from "./Product";
 
-const Products = () => {
+const Products = ({handleAddToCart}) => {
   const [foods, setFoods] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -56,6 +56,7 @@ const Products = () => {
             <Product
               key={food.id}
               food={food}
+              handleAddToCart={handleAddToCart}
               handleDeleteFood={handleDeleteFood}
             />
           ))}

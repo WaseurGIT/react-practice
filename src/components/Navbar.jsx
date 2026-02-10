@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FiShoppingCart } from "react-icons/fi";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ cartCount, onCartClick }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = (
@@ -49,6 +50,16 @@ const Navbar = () => {
             {links}
           </ul>
 
+          {/* Cart Icon */}
+          <button onClick={onCartClick} className="relative flex items-center justify-center p-2 text-orange-500 hover:bg-orange-100 rounded-full transition">
+            <FiShoppingCart size={24} />
+            {cartCount > 0 && (
+              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+                {cartCount}
+              </span>
+            )}
+          </button>
+
           {/* Hamburger */}
           <button
             className="md:hidden flex flex-col gap-1"
@@ -81,6 +92,17 @@ const Navbar = () => {
         >
           <ul className="flex flex-col gap-4 py-4 text-sm text-black dancing-script">
             {links}
+            <li className="pt-2 border-t border-gray-300">
+              <button className="relative flex items-center justify-center p-2 text-orange-500 hover:bg-orange-100 rounded-full transition">
+                <FiShoppingCart size={24} />
+
+                {cartCount > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+                    {cartCount}
+                  </span>
+                )}
+              </button>
+            </li>
           </ul>
         </div>
       </div>
