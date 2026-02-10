@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Products from "./Products";
 import Banner from "./Banner";
 import Cart from "./Cart";
+import Chatbot from "./Chatbot";
 
 const Home = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -31,6 +32,7 @@ const Home = () => {
 
   return (
     <div className="bg-white">
+      <Chatbot/>
       <Navbar cartCount={cartCount} onCartClick={() => setIsCartOpen(!isCartOpen)} />
       <Cart
         isOpen={isCartOpen}
